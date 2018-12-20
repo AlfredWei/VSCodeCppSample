@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         { 
-            "name": "(lldb) Attach",
+            "name": "(lldb) Mac Attach",
             "type": "cppdbg",
             "request": "attach",
             "program": "${workspaceFolder}/main.out",
@@ -13,7 +13,7 @@
             "MIMode": "lldb"
         },
         {
-            "name": "(lldb) Launch",
+            "name": "(lldb) Mac Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/main.out",
