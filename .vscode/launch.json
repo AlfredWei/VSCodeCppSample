@@ -4,16 +4,8 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        { 
-            "name": "(lldb) Mac Attach",
-            "type": "cppdbg",
-            "request": "attach",
-            "program": "${workspaceFolder}/main.out",
-            "processId": "${command:pickProcess}",
-            "MIMode": "lldb"
-        },
         {
-            "name": "(lldb) Mac Launch",
+            "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/main.out",
