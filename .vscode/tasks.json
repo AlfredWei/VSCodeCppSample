@@ -9,7 +9,7 @@
             "type": "shell",
             "args": [
                 "*.cpp",
-                "-std=c++11",
+                "-std=c++17",
                 "-g",
                 "-o",
                 "main.out"
